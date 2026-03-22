@@ -8,7 +8,8 @@ This folder contains all research, product, and architecture documentation for T
 
 | File | Description |
 |---|---|
-| [`architecture/ARCHITECTURE-V4.md`](./architecture/ARCHITECTURE-V4.md) | **The product vision. Start here.** The architecture built around actually knowing the student — not performing it. Student Intelligence File, Relevance Engine (3-gate structural isomorphism test), Format Reasoner, Session Graph, Minimal Intervention Principle. The document that captures what makes this different from sophisticated Anki. |
+| [`architecture/ARCHITECTURE-V5.md`](./architecture/ARCHITECTURE-V5.md) | **Current. Start here.** The complete architecture after independent critique. Adds the dialogue layer (student-initiated questions + confusion classification → targeted repair), generation-first self-reference effect, challenge gradient (70-80% target accuracy, worked example fading, flow zone management), and honest compression model. This is the tutor, not the textbook. |
+| [`architecture/ARCHITECTURE-V4.md`](./architecture/ARCHITECTURE-V4.md) | Student Intelligence File, Relevance Engine, Format Reasoner, Minimal Intervention Principle. Superseded by V5 but the foundational concepts are correct and worth reading. |
 | [`architecture/ARCHITECTURE-V3.md`](./architecture/ARCHITECTURE-V3.md) | ML implementation-precise: DKT-GAT, FSRS+IRT, POMDP, three-phase scheduler, constrained decoding, DPO+RLAIF pipeline, inference serving, evaluation suite. Read after V4 for the AI systems that power V4's decisions. |
 | [`architecture/ARCHITECTURE-V2.md`](./architecture/ARCHITECTURE-V2.md) | Deep theoretical architecture. Strong on the *why* — the learning science theory, the moat logic, the honest risks. Read before V3 for context. |
 | [`architecture/ARCHITECTURE-V1.md`](./architecture/ARCHITECTURE-V1.md) | First-pass overview. Good orientation. Superseded by V2 and V3. |
