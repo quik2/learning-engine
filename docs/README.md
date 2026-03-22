@@ -11,6 +11,7 @@ This folder contains all research, product, and architecture documentation for T
 | [`architecture/ARCHITECTURE-V3.md`](./architecture/ARCHITECTURE-V3.md) | **Current architecture. Start here.** Implementation-precise: full service diagram, exact data schemas, ML training pipelines, constraint validation loops, three-phase scheduling evolution (deterministic → contextual bandit → deep RL), ZPD targeting, deliberate practice loop, Qdrant integration, async ingestion pipeline. Precise enough to hire engineers into. |
 | [`architecture/ARCHITECTURE-V2.md`](./architecture/ARCHITECTURE-V2.md) | Deep theoretical architecture. Strong on the *why* — the learning science theory, the moat logic, the honest risks. Read before V3 for context. |
 | [`architecture/ARCHITECTURE-V1.md`](./architecture/ARCHITECTURE-V1.md) | First-pass overview. Good orientation. Superseded by V2 and V3. |
+| [`architecture/GTM-BUSINESS-MODEL.md`](./architecture/GTM-BUSINESS-MODEL.md) | Go-to-market strategy, business model, pricing, retention reframe, Canvas LTI play, FERPA/privacy compliance architecture, voice mode (Study Walk) full technical design, semantic answer evaluation pipeline, and IRB study design. |
 
 ## Research
 
