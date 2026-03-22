@@ -8,8 +8,9 @@ This folder contains all research, product, and architecture documentation for T
 
 | File | Description |
 |---|---|
-| [`architecture/ARCHITECTURE-V2.md`](./architecture/ARCHITECTURE-V2.md) | **Primary architecture document.** 8-layer deep technical design including all algorithms, ML stack, data schemas, and engineering rationale. Start here for technical understanding. |
-| [`architecture/ARCHITECTURE-V1.md`](./architecture/ARCHITECTURE-V1.md) | First-pass architecture. Useful as a high-level orientation before reading V2. |
+| [`architecture/ARCHITECTURE-V3.md`](./architecture/ARCHITECTURE-V3.md) | **Current architecture. Start here.** Implementation-precise: full service diagram, exact data schemas, ML training pipelines, constraint validation loops, three-phase scheduling evolution (deterministic → contextual bandit → deep RL), ZPD targeting, deliberate practice loop, Qdrant integration, async ingestion pipeline. Precise enough to hire engineers into. |
+| [`architecture/ARCHITECTURE-V2.md`](./architecture/ARCHITECTURE-V2.md) | Deep theoretical architecture. Strong on the *why* — the learning science theory, the moat logic, the honest risks. Read before V3 for context. |
+| [`architecture/ARCHITECTURE-V1.md`](./architecture/ARCHITECTURE-V1.md) | First-pass overview. Good orientation. Superseded by V2 and V3. |
 
 ## Research
 
@@ -25,8 +26,10 @@ This folder contains all research, product, and architecture documentation for T
 
 ## Reading Order
 
-**For a technical audience:** V1 Architecture → V2 Architecture → Product Document
+**For a technical audience (engineers, CTOs):** V2 Architecture → V3 Architecture → Product Document
 
-**For a product/investor audience:** Product Document → Scout Report → Case Against → V2 Architecture
+**For a product/investor audience:** Product Document → Scout Report → Case Against → V2 Architecture (Moat section)
 
-**For a research audience:** Scout Report → Evidence Base → V2 Architecture (Layer 3 and Layer 6)
+**For a research audience:** Scout Report → Evidence Base → V3 Architecture (Layers 3 and 6)
+
+**To understand the core idea in 10 minutes:** Product Document (What This Is + The Core Loop + The Sarah Walkthrough)
